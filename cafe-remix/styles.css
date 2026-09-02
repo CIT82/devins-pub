@@ -3,6 +3,9 @@ body {
     background-image: url("background.jpg");
     font-family: "Doppio One", sans-serif;
     padding: 20px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
   }
   
   h1 {
@@ -25,7 +28,7 @@ body {
   
   .menu {
     width: 80%;
-    background-color: burlywood;
+    background-color: rgba(222, 184, 135, 0.9);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
