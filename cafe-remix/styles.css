@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
 body {
     background-image: url("background.jpg");
-    font-family: sans-serif;
+    font-family: "Doppio One", sans-serif;
     padding: 20px;
   }
   
@@ -49,7 +50,7 @@ body {
   }
   
   h1, h2 {
-    font-family: Impact, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
   .item p {
