@@ -1,3 +1,20 @@
+nav .container {
+  max-width: 98vw;
+  margin: 10px;
+}
+
+body {
+  background-color: rgb(99, 99, 99);
+}
+
+body * {
+  color: white;
+}
+
+.alert *, .card * {
+  color: black;
+}
+
 body::before {
     content: "XS";
     color: red;
