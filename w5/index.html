@@ -24,7 +24,7 @@
                 <a href="#" class="nav-link">Activities</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Join</a>
+              <a href="#join" class="nav-link">Join</a>
             </li>
           </ul>
         </div>
@@ -49,6 +49,30 @@
                     a beginner, or a pro at it!</p>
             </div>
         </div>
+    </div>
+    <div class="container" id="join">
+        <h2>Join the Club!</h2>
+        <form novalidate>
+            <div class="form-floating">
+                <input type="number" id="userId" placeholder="Enter your ID" max="9999" class="form-control">
+                <label for="userId" class="form-label">ID</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" id="name" placeholder="Enter your Name" class="form-control">
+                <label for="name" class="form-label">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <select id="level" class="form-control">
+                    <option>No experience</option>
+                    <option>New</option>
+                    <option>Some experiences</option>
+                    <option>Pro</option>
+                </select>
+                <label for="level" class="form-label">Select your level</label>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-outline-danger" type="reset">Clear</button>
+        </form>
     </div>
   </body>
 </html>
