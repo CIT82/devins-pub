@@ -48,3 +48,7 @@
 **Line Numbers:** 358-363
 **Top-Level Classes:** `admin-footer`
 **Research:** It overwrite the style to set font size and color. It also add a padding to add a gap at the bottom of the page.
+
+## Section 4: The Scripts
+**Vendor JS Files:** Line 367 "Bootstrap"
+**Main JS File:** Line 368
