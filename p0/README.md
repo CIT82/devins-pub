@@ -31,3 +31,20 @@
 **Line Numbers:** 161-217
 **Top-Level Classes:** `row g-3 mt-1`
 **Research:** The margin spaces the section out of its siblings. The gap is used to add spaces between the boxes inside the section.
+
+## Section 3: Site Inventory (Bottom Half)
+
+### Sale Performance (Section 2)
+**Line Numbers:** 219-257
+**Top-Level Classes:** `row g-3 mt-1`
+**Research:** The classes adds a gap between the sections so the interface does not look cluttered.
+
+### Recent Users (Section 3)
+**Line Numbers:** 259-354
+**Top-Level Classes:** `panel mt-3`
+**Research:** The `mt-3` adds a gap to separate it from the section above it. The `panel` is used for pseudo class `:hover` to add a tiny detail when hovering over the section box.
+
+### The Footer
+**Line Numbers:** 358-363
+**Top-Level Classes:** `admin-footer`
+**Research:** It overwrite the style to set font size and color. It also add a padding to add a gap at the bottom of the page.
