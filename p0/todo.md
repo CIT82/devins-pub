@@ -1,7 +1,10 @@
 # p0 Roadmap
 
 ## Architecture
-1. - [ ] Create an **About** page.
+1. - [x] Create an **About** page.
+2. - [ ] Create **HTML Learning** pages.
+3. - [ ] Create **CSS Learning** pages.
+4. - [ ] Create **JavaScript Learning** pages.
 
 ## Content Replacement
 1. - [ ] Replace the profile picture with a profile icon
