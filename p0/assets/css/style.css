@@ -38,6 +38,8 @@ body {
 
 a {
   text-decoration: none;
+  color: #198754;
+  font-weight: bold;
 }
 
 .admin-shell {
@@ -1615,4 +1617,15 @@ html[data-theme="dark"] {
 .sidebar-footer {
   border-top-color: var(--admin-sidebar-border);
   color: var(--admin-sidebar-text);
+}
+
+.footer {
+  list-style-type: none;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 400px;
+  margin: auto;
 }
