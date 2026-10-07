@@ -1634,3 +1634,9 @@ html[data-theme="dark"] {
   width: 42px;
   height: 42px;
 }
+
+.portal-img {
+  width: 128px;
+  display: block;
+  margin: 0 auto;
+}
