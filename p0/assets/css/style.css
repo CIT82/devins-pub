@@ -1629,3 +1629,8 @@ html[data-theme="dark"] {
   width: 400px;
   margin: auto;
 }
+
+.sidebar-icon {
+  width: 42px;
+  height: 42px;
+}

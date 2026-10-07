@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="adminHMD professional admin dashboard template">
+  <meta name="description" content="Learn HTML fundamentals including tags, attributes, and document structure">
   <title>HTML Reading | WDA</title>
 
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/vendors/bootstrap-icons/bootstrap-icons.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -18,16 +19,16 @@
     <aside class="admin-sidebar" id="adminSidebar" aria-label="Main navigation">
       <div class="sidebar-header">
         <a class="brand-mark" href="index.html" aria-label="adminHMD dashboard">
-          <span class="brand-icon"><i class="bi bi-grid-1x2-fill" aria-hidden="true"></i></span>
+          <img class="sidebar-icon" src="assets/favicon.png" alt="WDA">
           <span class="brand-copy">
-            <span class="brand-title">adminHMD</span>
-            <span class="brand-subtitle">Admin Template</span>
+            <span class="brand-title">WDA</span>
+            <span class="brand-subtitle">Web Development Activities</span>
           </span>
         </a>
       </div>
 
       <nav class="sidebar-nav">
-        <a class="nav-link active" href="index.html" aria-current="page">
+        <a class="nav-link" href="index.html">
           <span class="nav-icon"><i class="bi bi-speedometer2" aria-hidden="true"></i></span>
           <span class="nav-text">Home</span>
         </a>
@@ -35,7 +36,7 @@
           <span class="nav-icon"><i class="bi bi-file-earmark" aria-hidden="true"></i></span>
           <span class="nav-text">About</span>
         </a>
-        <a class="nav-link" href="html-portal.html">
+        <a class="nav-link active" href="html-portal.html">
           <span class="nav-icon"><i class="bi bi-code-slash" aria-hidden="true"></i></span>
           <span class="nav-text">HTML</span>
         </a>
@@ -52,17 +53,6 @@
           <span class="nav-text">Settings</span>
         </a>
       </nav>
-
-      <div class="sidebar-user">
-        <img class="avatar-img avatar-md sidebar-user-avatar" src="../assets/images/avatar/avatar.jpg" alt="Admin Hasan">
-        <strong>Admin Hasan</strong>
-        <small>Active Workspace</small>
-      </div>
-
-      <div class="sidebar-footer">
-        <span class="status-dot"></span>
-        <span class="sidebar-footer-text">System running smoothly</span>
-      </div>
     </aside>
 
     <div class="admin-main">
@@ -78,19 +68,6 @@
             <button class="icon-button theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme" title="Switch color theme">
               <i class="bi bi-moon-stars" data-theme-icon aria-hidden="true"></i>
             </button>
-
-            <div class="dropdown">
-              <button class="profile-button dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="avatar-img avatar-sm" src="../assets/images/avatar/avatar.jpg" alt="Admin Hasan">
-                <span class="profile-name d-none d-sm-inline">Admin Hasan</span>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="profile.html">Profile</a></li>
-                <li><a class="dropdown-item" href="settings.html">Account settings</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="login.html">Sign out</a></li>
-              </ul>
-            </div>
           </div>
         </div>
       </nav>
@@ -99,20 +76,22 @@
         <div class="container">
             <section class="panel mt-3">
                 <h1>What is HTML?</h1>
+                <img style="width: 128px;" class="mb-3" src="assets/images/html-icon.png" alt="HTML icon">
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quas fuga corrupti eius ducimus qui veritatis vero sint dolore at incidunt sed distinctio repellat, modi eaque animi molestias eligendi provident?
+                    HTML stands for HyperText Markup Language and serves as the standard markup language for creating web pages. It describes the structure of web pages using a system of tags and elements that define how content should be organized and displayed in browsers. HTML uses markup tags to specify headers, paragraphs, lists, links, images, and other content types that make up a complete webpage.
                 </p>
                 <h2>Boilerplate</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, nostrum tenetur nesciunt accusamus voluptas reiciendis officia laborum autem molestias maiores fuga doloribus impedit iste, suscipit ex temporibus aspernatur? Qui, magni?
+                    The HTML boilerplate provides the essential foundation for every webpage, consisting of DOCTYPE declaration, html root element, head section for metadata, and body section for visible content. Standard boilerplate includes character encoding specification, viewport meta tag for responsive design, page title definition, and linking to external stylesheets or scripts that control presentation and behavior.
                 </p>
+                <img style="width: 480px;" src="assets/images/html-read-1.png" alt="The boilerplate for HTML file.">
                 <h2>Syntax and Tags</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quod, sint fuga commodi optio perspiciatis tempora. Sequi molestiae a voluptatem quisquam consequuntur fugit tempore, sed ducimus eos hic magnam nemo.
+                    HTML syntax relies on opening and closing tags wrapped around content, forming a hierarchical tree structure called the DOM. Elements can contain attributes that modify their behavior or appearance, such as specifying source URLs for images or setting identifiers for targeting with CSS and JavaScript. Proper nesting and tag closure ensure valid documents that render consistently across different browsers and devices.
                 </p>
                 <h2>Attributes</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad architecto minus dicta nesciunt est quos, voluptatum sequi fugiat commodi accusantium. Dolores accusantium vitae vero exercitationem atque nobis commodi modi rerum.
+                    Attributes provide additional information about HTML elements, appearing within opening tags as name-value pairs. Common attributes include id for unique identification, class for grouping elements, src for media sources, href for hyperlinks, alt for accessibility descriptions, and style for inline CSS declarations. Understanding attribute usage enables precise control over element behavior and facilitates integration with other web technologies throughout your projects.
                 </p>
             </section>
         </div>
@@ -127,8 +106,6 @@
           </ul>
         </div>
         <div class="container-fluid px-3 px-lg-4">
-          <span>Copyright 2026 adminHMD. <br> Developed by <a target="_blank" class="fw-bold text-success" href="https://github.com/HasanMahmudDev">Md. Hasan Mahmud</a> • Distributed by <a target="_blank" class="fw-bold text-success" href="https://themewagon.com">ThemeWagon</a> </span>
-          <span>Professional dashboard template.</span>
         </div>
       </footer>
     </div>
